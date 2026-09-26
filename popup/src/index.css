@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #14171f;
+  --color-ink-2: #1d212b;
+  --color-paper: #ede9e1;
+  --color-muted: #8b92a3;
+  --color-highlight: #f5b942;
+  --color-highlight-dim: #4a3f22;
+
+  --font-serif-read: "Charter", "Iowan Old Style", "Georgia", "Cambria", serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* Chrome renders scrollbars via these pseudo-elements (Firefox uses
+   scrollbar-width/scrollbar-color instead, added as a fallback below).
+   We're overriding the default gray system scrollbar to match the
+   ink/highlight theme instead of leaving it looking like an OS default. */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3a3f4d;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4a3f22;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3a3f4d transparent;
+}

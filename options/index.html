@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Explain This! - Settings</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        width: 350px;
+        padding: 16px;
+      }
+      input {
+        width: 100%;
+        padding: 6px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      button {
+        padding: 6px 12px;
+      }
+      #status {
+        margin-top: 8px;
+        font-size: 13px;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Settings</h3>
+    <label for="apiKey">Gemini Api Key:</label>
+    <input type="password" id="apiKey" placeholder="paste your api key." />
+    <button id="save">Save</button>
+    <p id="status"></p>
+    <script src="option.js"></script>
+  </body>
+</html>
