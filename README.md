@@ -58,8 +58,8 @@ Popup (React) — live-updates via storage listener
 Since this isn't published on the Chrome Web Store yet, you can run it locally:
 
 ```bash
-git clone https://github.com/<your-username>/explain-this-extension.git
-cd explain-this-extension
+git clone https://github.com/Deepesh-Zagade/Explain-This-chrome-extension.git
+cd Explain-This-chrome-extension
 ```
 
 If you want to modify the popup UI, rebuild it:
